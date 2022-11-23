@@ -1,11 +1,18 @@
 {
     "spellright.language": [
+        "en",
         "ro"
     ],
     "spellright.documentTypes": [
-        "markdown",
         "latex",
         "plaintext",
-        "julia"
-    ]
+        "julia",
+        "markdown",
+        "Log"
+    ],
+    "spellright.parserByClass": {
+        "Log": {
+            "parser": "markdown"
+        }
+    }
 }
