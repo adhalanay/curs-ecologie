@@ -8,3 +8,9 @@ output_19_0.png
 output_36_0.png
 output_38_0.png
 output_9_0.png
+*.aux
+*.log
+*.out
+*.pdf
+*.tex
+*.zip
