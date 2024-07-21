@@ -14,3 +14,4 @@ output_9_0.png
 *.pdf
 *.tex
 *.zip
+.virtual_documents/
