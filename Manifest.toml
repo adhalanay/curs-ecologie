@@ -2,7 +2,7 @@
 
 julia_version = "1.11.1"
 manifest_format = "2.0"
-project_hash = "5ed837bf324fe6f574f3f2ec9412078585908aa8"
+project_hash = "d655449f020554ba94ac8d840bc3b745fd044ce4"
 
 [[deps.ADTypes]]
 git-tree-sha1 = "eea5d80188827b35333801ef97a40c2ed653b081"
@@ -206,9 +206,9 @@ weakdeps = ["HTTP", "Sockets"]
 
 [[deps.Bonito]]
 deps = ["Base64", "CodecZlib", "Colors", "Dates", "Deno_jll", "HTTP", "Hyperscript", "LinearAlgebra", "Markdown", "MsgPack", "Observables", "RelocatableFolders", "SHA", "Sockets", "Tables", "ThreadPools", "URIs", "UUIDs", "WidgetsBase"]
-git-tree-sha1 = "b2132bacf072eae4da0cd75a260d0e79c04530ff"
+git-tree-sha1 = "d7635780a8cfe0cb43c075276fd358c5b166695e"
 uuid = "824d6782-a2ef-11e9-3a09-e5662e0c26f8"
-version = "3.2.3"
+version = "3.2.4"
 
 [[deps.BoundaryValueDiffEq]]
 deps = ["ADTypes", "Adapt", "ArrayInterface", "BandedMatrices", "ConcreteStructs", "DiffEqBase", "FastAlmostBandedMatrices", "FastClosures", "ForwardDiff", "LineSearch", "LineSearches", "LinearAlgebra", "LinearSolve", "Logging", "NonlinearSolve", "OrdinaryDiffEq", "PreallocationTools", "PrecompileTools", "Preferences", "RecursiveArrayTools", "Reexport", "SciMLBase", "Setfield", "SparseArrays", "SparseDiffTools"]
@@ -968,9 +968,9 @@ version = "2.13.2+0"
 
 [[deps.FreeTypeAbstraction]]
 deps = ["ColorVectorSpace", "Colors", "FreeType", "GeometryBasics"]
-git-tree-sha1 = "2493cdfd0740015955a8e46de4ef28f49460d8bc"
+git-tree-sha1 = "84dfe824bd6fdf2a5d73bb187ff31b5549b2a79c"
 uuid = "663a7486-cb36-511b-a19d-713bb74d65c9"
-version = "0.10.3"
+version = "0.10.4"
 
 [[deps.FriBidi_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -1000,23 +1000,11 @@ deps = ["Random"]
 uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 version = "1.11.0"
 
-[[deps.GLFW]]
-deps = ["GLFW_jll"]
-git-tree-sha1 = "7ed24cfc4cb29fb10c0e8cca871ddff54c32a4c3"
-uuid = "f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98"
-version = "3.4.3"
-
 [[deps.GLFW_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libglvnd_jll", "Xorg_libXcursor_jll", "Xorg_libXi_jll", "Xorg_libXinerama_jll", "Xorg_libXrandr_jll", "libdecor_jll", "xkbcommon_jll"]
 git-tree-sha1 = "532f9126ad901533af1d4f5c198867227a7bb077"
 uuid = "0656b61e-2033-5cc2-a64a-77c0f6c09b89"
 version = "3.4.0+1"
-
-[[deps.GLMakie]]
-deps = ["ColorTypes", "Colors", "FileIO", "FixedPointNumbers", "FreeTypeAbstraction", "GLFW", "GeometryBasics", "LinearAlgebra", "Makie", "Markdown", "MeshIO", "ModernGL", "Observables", "PrecompileTools", "Printf", "ShaderAbstractions", "StaticArrays"]
-git-tree-sha1 = "8a9f356bd5abb64c8b9a1fd6880c83a37973ddee"
-uuid = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
-version = "0.10.14"
 
 [[deps.GPUArraysCore]]
 deps = ["Adapt"]
@@ -1659,9 +1647,9 @@ version = "1.11.0"
 
 [[deps.MathTeXEngine]]
 deps = ["AbstractTrees", "Automa", "DataStructures", "FreeTypeAbstraction", "GeometryBasics", "LaTeXStrings", "REPL", "RelocatableFolders", "UnicodeFun"]
-git-tree-sha1 = "e1641f32ae592e415e3dbae7f4a188b5316d4b62"
+git-tree-sha1 = "f45c8916e8385976e1ccd055c9874560c257ab13"
 uuid = "0a4f8689-d25c-4efe-a92b-7142dfc1aa53"
-version = "0.6.1"
+version = "0.6.2"
 
 [[deps.MatrixFactorizations]]
 deps = ["ArrayLayouts", "LinearAlgebra", "Printf", "Random"]
@@ -1719,12 +1707,6 @@ git-tree-sha1 = "c13304c81eec1ed3af7fc20e75fb6b26092a1102"
 uuid = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
 version = "0.3.2"
 
-[[deps.MeshIO]]
-deps = ["ColorTypes", "FileIO", "GeometryBasics", "Printf"]
-git-tree-sha1 = "dc182956229ff16d5a4d90a562035e633bd2561d"
-uuid = "7269a6da-0436-5bbc-96c2-40638cbb6118"
-version = "0.4.12"
-
 [[deps.Missings]]
 deps = ["DataAPI"]
 git-tree-sha1 = "ec4f7fbeab05d7747bdf98eb74d130a2a2ed298d"
@@ -1734,12 +1716,6 @@ version = "1.2.0"
 [[deps.Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 version = "1.11.0"
-
-[[deps.ModernGL]]
-deps = ["Libdl"]
-git-tree-sha1 = "b76ea40b5c0f45790ae09492712dd326208c28b2"
-uuid = "66fc600b-dfda-50eb-8b99-91cfa97b1301"
-version = "1.1.7"
 
 [[deps.MosaicViews]]
 deps = ["MappedArrays", "OffsetArrays", "PaddedViews", "StackViews"]
@@ -2196,9 +2172,9 @@ version = "0.3.3"
 
 [[deps.PlotThemes]]
 deps = ["PlotUtils", "Statistics"]
-git-tree-sha1 = "6e55c6841ce3411ccb3457ee52fc48cb698d6fb0"
+git-tree-sha1 = "41031ef3a1be6f5bbbf3e8073f210556daeae5ca"
 uuid = "ccf2f8ad-2431-5c83-bf29-c5338b663b6a"
-version = "3.2.0"
+version = "3.3.0"
 
 [[deps.PlotUtils]]
 deps = ["ColorSchemes", "Colors", "Dates", "PrecompileTools", "Printf", "Random", "Reexport", "StableRNGs", "Statistics"]
@@ -2412,9 +2388,9 @@ version = "2.1.0"
 
 [[deps.RecursiveArrayTools]]
 deps = ["Adapt", "ArrayInterface", "DocStringExtensions", "GPUArraysCore", "IteratorInterfaceExtensions", "LinearAlgebra", "RecipesBase", "StaticArraysCore", "Statistics", "SymbolicIndexingInterface", "Tables"]
-git-tree-sha1 = "b034171b93aebc81b3e1890a036d13a9c4a9e3e0"
+git-tree-sha1 = "43cdc0987135597867a37fc3e8e0fc9fdef6ac66"
 uuid = "731186ca-8d62-57ce-b412-fbd966d074cd"
-version = "3.27.0"
+version = "3.27.1"
 
     [deps.RecursiveArrayTools.extensions]
     RecursiveArrayToolsFastBroadcastExt = "FastBroadcast"
@@ -2907,9 +2883,9 @@ version = "7.4.0"
 
 [[deps.SymbolicIndexingInterface]]
 deps = ["Accessors", "ArrayInterface", "RuntimeGeneratedFunctions", "StaticArraysCore"]
-git-tree-sha1 = "4bc96df5d71515b1cb86dd626915f06f4c0d46f5"
+git-tree-sha1 = "20cf607cafb31f922bce84d60379203e7a126911"
 uuid = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
-version = "0.3.33"
+version = "0.3.34"
 
 [[deps.SymbolicLimits]]
 deps = ["SymbolicUtils"]
