@@ -15,3 +15,5 @@ output_9_0.png
 *.tex
 *.zip
 .virtual_documents/
+.jupyter*
+
